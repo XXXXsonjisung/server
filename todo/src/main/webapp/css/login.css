@@ -1,0 +1,103 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+}
+
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.LoginTPage {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 68%;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.Box {
+   background-color: white;
+   width: 500px;
+   height: 450px;
+   border-radius: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.bBox {
+    background-color: black;
+    width: 450px;
+    height: 430px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bBL1 {
+    flex-basis: 34%;
+}
+
+.bBL1 img {
+    padding: 0;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-bottom: 0;
+    width: 100px;
+    height: auto;
+}
+
+.bBL2 {
+    flex-basis: 34%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputL1 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputL2 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bBL3 {
+    flex-basis: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogBtn {
+    padding: 10px 20px;
+    background-color: pink;
+    border-radius: 63px; 
+    color: white;
+    border: none; 
+    cursor: pointer;
+    
+}
+
+.LoginBPage {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+

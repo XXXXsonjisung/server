@@ -1,3 +1,9 @@
 INDEX VERSION 1.134
-C:\Users\user\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2210145245.index
+C:\Users\user\OneDrive\πŸ≈¡ »≠∏È\Server - todo\server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1598883703.index
+\toto\src\main\java
+C:\Users\user\OneDrive\πŸ≈¡ »≠∏È\Server\server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3765535236.index
+\JSPProject1\src\main\java
+C:\Users\user\OneDrive\πŸ≈¡ »≠∏È\Server\server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2210145245.index
 \ServletProject\src\main\java
+C:\Users\user\OneDrive\πŸ≈¡ »≠∏È\Server - todo\server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1108634014.index
+\todo\src\main\java

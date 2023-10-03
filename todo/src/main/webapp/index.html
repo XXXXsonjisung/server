@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <link rel="stylesheet" href="/css/login.css" type="text/css">
+    <style>
+
+  
+        input[type="text"] {
+            width: 350px; 
+            height: 39px; 
+            margin: 3px;
+            border: none; 
+            border-radius: 40px; 
+            background-color: pink;
+            padding: 10px; 
+            font-size: 20px; 
+            color: white; 
+        }
+
+ 
+        input[type="text"]:focus {
+            outline: none; 
+            box-shadow: 0 0 5px rgba(255, 0, 255, 0.5); 
+        }
+        
+        input[type="password"] {
+            width: 350px; 
+            height: 39px; 
+            margin: 3px;
+            border: none; 
+            border-radius: 40px; 
+            background-color: pink;
+            padding: 10px; 
+            font-size: 20px; 
+            color: white; 
+        }
+
+ 
+        input[type="password"]:focus {
+            outline: none; 
+            box-shadow: 0 0 5px rgba(255, 0, 255, 0.5); 
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            font-weight: normal;
+        }
+
+
+        a:hover {
+            color: #ff6600; 
+        }
+
+	        .LogBtn {
+
+            padding: 10px 20px;
+            background-color: pink;
+            border-radius: 63px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+            height: 80px;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .LogBtn:hover {
+           
+            color: #7BFF4D; 
+        }
+
+    </style>
+</head> 
+<body>
+    <section class="LoginPage">
+        <section class="LoginTPage">
+            <section class="Box">
+                <section class="bBox">
+                    <section class="bBL1">
+                        <img src="/img/Login.png">
+                    </section>
+                    <form action="/login" method="post">
+                        <section class="bBL2">
+                            <div class="inputL1">
+                                <input type="text" name="id"  placeholder="ID">
+                            </div>
+                            <div class="inputL2">
+                                <input type="password" name="pw" placeholder="PW">
+                            </div>
+                        </section>
+                        
+                        <section class="bBL3">
+                        	<button class="LogBtn">LOG</button>
+                  	 	</section>
+                    </form>
+                </section>
+            </section>
+        </section>
+        <section class="LoginBPage">
+            <a href="/signUp">
+                <h1 id="signUp">signUp</h1>
+            </a>
+        </section>
+    </section>
+
+    
+</body>
+</html>
